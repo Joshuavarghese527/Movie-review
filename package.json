@@ -20,6 +20,7 @@
     "body-parser": "^1.17.2",
     "express": "^4.15.2",
     "express-es6-template-engine": "^2.0.1",
+    "jsonwebtoken": "^7.4.2",
     "pg": "6.1.5",
     "pg-hstore": "2.3.2",
     "sequelize": "3.30.4",
