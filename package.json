@@ -15,6 +15,7 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.16.2",
+    "body-parser": "^1.17.2",
     "express": "^4.15.2",
     "express-es6-template-engine": "^2.0.1"
   }
