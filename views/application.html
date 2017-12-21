@@ -7,9 +7,15 @@
   <body>
     <div class="nav">
       <a class="logo" href="/">moviePress</a>
-      <a class="text" href="/sign-out">Sign Out</a>
-      <a class="text" href="/sign-up">Sign Up</a>
-      <a class="text" href="/sign-in">Sign In</a>
+      <div>
+        ${user ?
+           `<span class="welcome">Welcome ${user.username}!</span>
+            <a class="text" href="/sign-out">Sign Out</a>`
+          :
+           `<a class="text" href="/sign-up">Sign Up</a>
+            <a class="text" href="/sign-in">Sign In</a>`
+        }
+      </div>
     </div>
     <div class="yield">${yield}</div>
     <div class="footer">
